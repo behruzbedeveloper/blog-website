@@ -112,3 +112,22 @@ body{
     background: #1b1b1b;
     color: #fff;
 }
+
+@media(max-width:750px){
+    .blogs-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media(max-width:550px){
+    .heading{
+        font-size: 40px;
+    }
+    
+    .heading .small{
+        font-size: 20px;
+    }
+    .navbar img{
+        width: 100px;
+    }
+
+}
